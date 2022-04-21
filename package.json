@@ -15,7 +15,6 @@
     "lint:php": "composer lint",
     "format": "npm-run-all format:*",
     "format:php": "composer format",
-    "format:js": "npm run lint:js -- --fix",
     "test": "npm-run-all test:*",
     "test:php": "wp-env run phpunit 'composer test --working-dir=/var/www/html/wp-content/plugins/two-factor'",
     "preinstall": "composer install"
